@@ -1,0 +1,1336 @@
+.showcasebanner {
+  width: 100%;
+  height: 700px;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+.showcasebanner img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.showcasebanner .overlaybanner {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0%;
+  background-color: rgba(19, 20, 20, 0.651);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  z-index: 999;
+}
+@media screen and (min-width: 1000px) {
+  .showcasebanner .overlaybanner {
+    height: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .showcasebanner .overlaybanner {
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+  }
+}
+.showcasebannersecond {
+  width: 100%;
+  height: 700px;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+.showcasebannersecond img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.showcasebannersecond .overlaybannersecond {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0%;
+  background-color: rgba(19, 20, 20, 0.651);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  z-index: 999;
+}
+@media screen and (min-width: 1000px) {
+  .showcasebannersecond .overlaybannersecond {
+    height: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .showcasebannersecond .overlaybannersecond {
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+  }
+}
+.jumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.parallax {
+  /* height: 700px; */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#parallax-static {
+  background-image: url("../images/Technologies/react.jpg");
+}
+#parallax-slightly-moving {
+  background-image: url("../images/Technologies/react.jpg");
+}
+#parallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.companyjumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.companyparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#companyparallax-static {
+  background-image: url("../images/Technologies/aboutcompany.jpg");
+}
+#companyparallax-slightly-moving {
+  background-image: url("../images/Technologies/aboutcompany.jpg");
+}
+#companyparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.designjumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.designparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#designparallax-static {
+  background-image: url("../images/Services/bannar/designbanner.jpg");
+}
+#designparallax-slightly-moving {
+  background-image: url("../images/Services/bannar/designbanner.jpg");
+}
+#designparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+/***************/
+.opportunityjumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.opportunityparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#opportunityparallax-static {
+  background-image: url("../images/Company/oportunities/Colucter.jpg");
+}
+#opportunityparallax-slightly-moving {
+  background-image: url("../images/Company/oportunities/Colucter.jpg");
+}
+#opportunityparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+/***************/
+.testing-and-qajumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.testing-and-qaparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#testing-and-qaparallax-static {
+  background-image: url("../images/Services/Testing/Testing.png");
+}
+#testing-and-qaparallax-slightly-moving {
+  background-image: url("../images/Services/Testing/Testing.png");
+}
+#testing-and-qaparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+/***************/
+/***************/
+.it-consultingjumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.it-consultingparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#it-consultingparallax-static {
+  background-image: url("../images/Services/Testing/ConsultingServices.jpg");
+}
+#it-consultingparallax-slightly-moving {
+  background-image: url("../images/Services/Testing/ConsultingServices.jpg");
+}
+#it-consultingparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+/***************/
+.dedicated-development-teamsjumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.dedicated-development-teamsgparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#dedicated-development-teamsparallax-static {
+  background-image: url("../images/Services/developmentteam.jpg");
+}
+#dedicated-development-teamsparallax-slightly-moving {
+  background-image: url("../images/Services/developmentteam.jpg");
+}
+#dedicated-development-teamsparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  bottom: 0;
+  left: 0;
+}
+/***************/
+.devjumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.devparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#devparallax-static {
+  background-image: url("../images/Services/Testing/ConsultingServices.jpg");
+}
+#devparallax-slightly-moving {
+  background-image: url("../images/Services/Testing/ConsultingServices.jpg");
+}
+#devparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/******************/
+.webdevjumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.webdevparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#webdevparallax-static {
+  background-image: url("../images/Services/Testing/ConsultingServices.jpg");
+}
+#webdevparallax-slightly-moving {
+  background-image: url("../images/Services/Testing/ConsultingServices.jpg");
+}
+#webdevparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+/******************/
+/******************/
+.web-developmentjumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.web-developmentparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#web-developmentparallax-static {
+  background-image: url("../images/Services/bannar/dev.jpg");
+}
+#web-developmentparallax-slightly-moving {
+  background-image: url("../images/Services/bannar/dev.jpg");
+}
+#web-developmentparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+/******************/
+.mobdevjumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.mobdevparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#mobdevparallax-static {
+  background-image: url("../images/Services/bannar/mobileapps.jpg");
+}
+#mobdevparallax-slightly-moving {
+  background-image: url("../images/Services/bannar/mobileapps.jpg");
+}
+#mobdevparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/**************/
+.productjumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.productparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#productparallax-static {
+  background-image: url("../images/Services/bannar/Productimg.jpeg");
+}
+#productparallax-slightly-moving {
+  background-image: url("../images/Services/bannar/Productimg.jpeg");
+}
+#productparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+/************************/
+.devopsjumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.devopsparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#devopsparallax-static {
+  background-image: url("../images/Services/bannar/WebDevelopment.jpg");
+}
+#devopsparallax-slightly-moving {
+  background-image: url("../images/Services/bannar/WebDevelopment.jpg");
+}
+#devopsparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/************************/
+.ecommjumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.ecommparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#ecommparallax-static {
+  background-image: url("../images/Industries/ecommerce.png");
+}
+#ecommparallax-slightly-moving {
+  background-image: url("../images/Industries/ecommerce.png");
+}
+#ecommparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+/************************/
+.healthjumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.healthparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#healthparallax-static {
+  background-image: url("../images/Industries/healthCare.jpg");
+}
+#healthparallax-slightly-moving {
+  background-image: url("../images/Industries/healthCare.jpg");
+}
+#healthparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/************************/
+.media-and-entertainmentjumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.media-and-entertainmentparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#media-and-entertainmentparallax-static {
+  background-image: url("../images/Industries/entertainmentBanner.jpg");
+}
+#media-and-entertainmentparallax-slightly-moving {
+  background-image: url("../images/Industries/entertainmentBanner.jpg");
+}
+#media-and-entertainmentparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+/************************/
+.bankingjumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.bankingparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#bankingparallax-static {
+  background-image: url("../images/Industries/banking.jpg");
+}
+#bankingparallax-slightly-moving {
+  background-image: url("../images/Industries/banking.jpg");
+}
+#bankingparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/************************/
+.bankingjumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.bankingparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#bankingparallax-static {
+  background-image: url("../images/Industries/banking.jpg");
+}
+#bankingparallax-slightly-moving {
+  background-image: url("../images/Industries/banking.jpg");
+}
+#bankingparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/************************/
+.startupjumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.startupparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#startupparallax-static {
+  background-image: url("../images/Industries/startups.jpg");
+}
+#startupparallax-slightly-moving {
+  background-image: url("../images/Industries/startups.jpg");
+}
+#startupparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/************************/
+.blockchainjumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.blockchainparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#blockchainparallax-static {
+  background-image: url("../images/Industries/blockchain.jpg");
+}
+#blockchainparallax-slightly-moving {
+  background-image: url("../images/Industries/blockchain.jpg");
+}
+#blockchainparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/************************/
+.telecomjumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.telecomparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#telecomparallax-static {
+  background-image: url("../images/Industries/telecom.jpg");
+}
+#telecomparallax-slightly-moving {
+  background-image: url("../images/Industries/telecom.jpg");
+}
+#telecomparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+/************************/
+.blockchainjumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.blockchainparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#blockchainparallax-static {
+  background-image: url("../images/Industries/blockchain.jpg");
+}
+#blockchainparallax-slightly-moving {
+  background-image: url("../images/Industries/blockchain.jpg");
+}
+#blockchainparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/************************/
+.aerospacejumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.aerospaceparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#aerospaceparallax-static {
+  background-image: url("../images/Industries/aerospace3.jpg");
+}
+#aerospaceparallax-slightly-moving {
+  background-image: url("../images/Industries/aerospace3.jpg");
+}
+#aerospaceparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/************************/
+.automotivejumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.automotiveparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#automotiveparallax-static {
+  background-image: url("../images/Industries/automotive.jpg");
+}
+#automotiveparallax-slightly-moving {
+  background-image: url("../images/Industries/automotive.jpg");
+}
+#automotiveparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/************************/
+.communicationsjumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.communicationsparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#communicationsparallax-static {
+  background-image: url("../images/Industries/automotive.jpg");
+}
+#communicationsparallax-slightly-moving {
+  background-image: url("../images/Industries/automotive.jpg");
+}
+#communicationsparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/************************/
+.educationjumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.educationparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#educationparallax-static {
+  background-image: url("../images/Industries/education.jpg");
+}
+#educationparallax-slightly-moving {
+  background-image: url("../images/Industries/education.jpg");
+}
+#educationparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/************************/
+.automotivejumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.automotiveparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#automotiveparallax-static {
+  background-image: url("../images/Industries/automotive.jpg");
+}
+#automotiveparallax-slightly-moving {
+  background-image: url("../images/Industries/automotive.jpg");
+}
+#automotiveparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/************************/
+.communicationsjumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.communicationsparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#communicationsparallax-static {
+  background-image: url("../images/Industries/Communication1.jpg");
+}
+#communicationsparallax-slightly-moving {
+  background-image: url("../images/Industries/Communication1.jpg");
+}
+#communicationsparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/************************/
+.platforms-and-software-productsjumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.platformsparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#platformsparallax-static {
+  background-image: url("../images/Industries/infosysIndustries.jpg");
+}
+#platformsparallax-slightly-moving {
+  background-image: url("../images/Industries/infosysIndustries.jpg");
+}
+#platformsparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/************************/
+.industrial-and-process-manufacturingjumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.industrialsparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#industrialparallax-static {
+  background-image: url("../images/Industries/ManufacturingIndustryBanner.jpg");
+}
+#industrialparallax-slightly-moving {
+  background-image: url("../images/Industries/ManufacturingIndustryBanner.jpg");
+}
+#industrialparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+/************************/
+.travel-and-transportationjumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.travelparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#travelparallax-static {
+  background-image: url("../images/Industries/Transport.jpeg");
+}
+#travelparallax-slightly-moving {
+  background-image: url("../images/Industries/Transport.jpeg");
+}
+#travelparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/********Technologies****************/
+/************************/
+.reactjumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.reactparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#reactparallax-static {
+  background-image: url("../images/Technologies/ReactBanner.png");
+}
+#reactparallax-slightly-moving {
+  background-image: url("../images/Technologies/ReactBanner.png");
+}
+#reactparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+/************************/
+.angularjumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.angularparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#angularparallax-static {
+  background-image: url("../images/Technologies/AngularBanner.png");
+}
+#angularparallax-slightly-moving {
+  background-image: url("../images/Technologies/AngularBanner.png");
+}
+#angularparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/************************/
+.nodejsjumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.nodejsparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#nodejsparallax-static {
+  background-image: url("../images/Technologies/nodejsbanner.jpg");
+}
+#nodejsparallax-slightly-moving {
+  background-image: url("../images/Technologies/nodejsbanner.jpg");
+}
+#nodejsparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+/************************/
+.dot-netjumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.dot-netparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#dot-netparallax-static {
+  background-image: url("../images/Technologies/dotnet.jpeg");
+}
+#dot-netparallax-slightly-moving {
+  background-image: url("../images/Technologies/dotnet.jpeg");
+}
+#dot-netparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+/************************/
+.qajumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.qaparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#qaparallax-static {
+  background-image: url("../images/Technologies/QAssurance.jpg");
+}
+#qaparallax-slightly-moving {
+  background-image: url("../images/Technologies/QAssurance.jpg");
+}
+#qaparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+/************************/
+.react-nativejumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.react-nativeparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#react-nativeparallax-static {
+  background-image: url("../images/Technologies/reactnative1.png");
+}
+#react-nativeparallax-slightly-moving {
+  background-image: url("../images/Technologies/reactnative1.png");
+}
+#react-nativeparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/************************/
+.front-endjumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.front-endparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#front-endparallax-static {
+  background-image: url("../images/Technologies/WebDeveloperskill.jpg");
+}
+#front-endparallax-slightly-moving {
+  background-image: url("../images/Technologies/WebDeveloperskill.jpg");
+}
+#front-endparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+/************************/
+.back-endjumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.back-endparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#back-endparallax-static {
+  background-image: url("../images/Technologies/ReactNative1.jpeg");
+}
+#back-endparallax-slightly-moving {
+  background-image: url("../images/Technologies/ReactNative1.jpeg");
+}
+#back-endparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+/************************/
+.mobilejumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.mobileparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#mobileparallax-static {
+  background-image: url("../images/Technologies/mobile.png");
+}
+#mobileparallax-slightly-moving {
+  background-image: url("../images/Technologies/mobile.png");
+}
+#mobileparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+/************************/
+.cms-crm-erpumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.cms-crm-erpparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#cms-crm-erpparallax-static {
+  background-image: url("../images/Technologies/Mangement.jpg");
+}
+#cms-crm-erpparallax-slightly-moving {
+  background-image: url("../images/Technologies/Mangement.jpg");
+}
+#cms-crm-erpparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+/**********Company**************/
+.careerspumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.careersparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#careersparallax-static {
+  background-image: url("../images/Technologies/backenddev.jpg");
+}
+#careersparallax-slightly-moving {
+  background-image: url("../images/Technologies/backenddev.jpg");
+}
+#careersparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+
+  left: 0;
+}
+/**********Company**************/
+.outsourcing-pricing-modelspumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.outsourcing-pricing-modelsparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#outsourcing-pricing-modelsparallax-static {
+  background-image: url("../images/Technologies/Cimages.jpg");
+}
+#outsourcing-pricing-modelsparallax-slightly-moving {
+  background-image: url("../images/Technologies/Cimages.jpg");
+}
+#outsourcing-pricing-modelsparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+/**********Contact**************/
+.contactpumbotron {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.contactparallax {
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#contactparallax-static {
+  background-image: url("../images/Technologies/contactbanner.jpg");
+}
+#contactparallax-slightly-moving {
+  background-image: url("../images/Technologies/contactbanner.jpg");
+}
+#contactparallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
